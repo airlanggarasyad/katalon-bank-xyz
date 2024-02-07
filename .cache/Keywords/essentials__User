@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "6566B6FF390BD55D5921C40786E0C757",
+  "keywordFileContentHash": "6D2D700609E247A81DAB5452B74CE353",
   "keywordClasses": [
     {
       "name": "essentials.User",
@@ -20,16 +20,14 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "Logout",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

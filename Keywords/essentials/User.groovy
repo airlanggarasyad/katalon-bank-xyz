@@ -23,6 +23,9 @@ import internal.GlobalVariable
 public class User {
 	@Keyword
 	def Login(uid) {
+		/*
+		 * Log in to user account. Accepts one argument String uid.
+		 * */
 		WebUI.click(findTestObject('Object Repository/Page_XYZ Bank/button_Customer Login'))
 
 		WebUI.selectOptionByValue(findTestObject('Object Repository/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b'),
@@ -33,6 +36,9 @@ public class User {
 
 	@Keyword
 	def Logout() {
+		/*
+		 * Log out from the current user account.
+		 * */
 		WebUI.click(findTestObject('Object Repository/Page_XYZ Bank/button_Logout'))
 	}
 }

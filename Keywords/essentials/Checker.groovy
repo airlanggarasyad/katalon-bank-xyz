@@ -26,6 +26,11 @@ import com.kms.katalon.core.testobject.TestObject
 public class Checker {
 	@Keyword
 	def CheckValidity(is_sufficent) {
+		/*
+		 * Check if the transaction alert is showing. If transaction succeeds,
+		 * the alert should contain 'successful' string and 'Failed' if the
+		 * transaction failed.
+		 * */
 		TestObject tObj = new TestObject()
 
 		tObj.addProperty('xpath', ConditionType.EQUALS, GlobalVariable.error_msg_xpath)
