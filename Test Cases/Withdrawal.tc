@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Withdrawal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37e7ca0b-c584-4c9a-9bd7-ba67eafee50e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad4e84e1-db56-4908-8f03-7b164448488a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e291bfaa-9aab-474f-8c6d-a20ea1aa8384</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7821628d-2783-4bd3-814a-e91622fd53a9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad4e84e1-db56-4908-8f03-7b164448488a</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e291bfaa-9aab-474f-8c6d-a20ea1aa8384</id>
+      <masked>false</masked>
+      <name>withdrawal</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7821628d-2783-4bd3-814a-e91622fd53a9</id>
+      <masked>false</masked>
+      <name>is_sufficent</name>
+   </variable>
+</TestCaseEntity>

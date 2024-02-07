@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "918FA3BCCA1F71F512954C3F949B840E",
+  "keywordClasses": [
+    {
+      "name": "essentials.Checker",
+      "keywordMethods": [
+        {
+          "name": "CheckValidity",
+          "parameters": [
+            {
+              "name": "is_sufficent",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

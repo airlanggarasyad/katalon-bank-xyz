@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Withdrawal</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>e376ccdd-3c78-47ab-a90b-b53dcb0c774b</testSuiteGuid>
+   <testCaseLink>
+      <guid>0ab00e95-030f-4fe6-b6d2-e9f36783a442</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>7821628d-2783-4bd3-814a-e91622fd53a9</id>
+         <masked>false</masked>
+         <name>is_sufficent</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/Withdrawal</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8fccac08-0592-4b24-8cea-ceb5738b4ce6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/data-eksel</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>8fccac08-0592-4b24-8cea-ceb5738b4ce6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user</value>
+         <variableId>ad4e84e1-db56-4908-8f03-7b164448488a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8fccac08-0592-4b24-8cea-ceb5738b4ce6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>withdrawal</value>
+         <variableId>e291bfaa-9aab-474f-8c6d-a20ea1aa8384</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8fccac08-0592-4b24-8cea-ceb5738b4ce6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>is_sufficent</value>
+         <variableId>7821628d-2783-4bd3-814a-e91622fd53a9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
